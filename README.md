@@ -2,7 +2,7 @@
 This is an application that helps its user to keep the credentials for their various accounts and takes away the tedious quest of trying to remember an account username or password. The application runs on the terminal.
 
 ## Contributors
-1. Francis Mwangi
+1. Francis Mwangi Maina
 
 ## Technologies Used
 1. Python3
