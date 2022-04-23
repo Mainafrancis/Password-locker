@@ -17,3 +17,10 @@ def main():
 
             print('create password')
             created_user_password = input()
+
+            print('confirm password')
+            confirm_password = input()
+
+
+            
+
