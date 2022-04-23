@@ -2,6 +2,8 @@ import random
 from user import User
 
 
-# def main():
+def main():
 
-    # while True:
+    while True:
+        print("welcome to password locker!!!")
+        print('\n')

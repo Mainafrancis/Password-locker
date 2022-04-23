@@ -1,5 +1,5 @@
 # PASSWORD-LOCKER
-This is an application that helps its user to keep the credentials for their various accounts and takes away the tedious quest of trying to remember an account username or password. The application runs on the terminal.
+Password Locker is a terminal run python application that allows users to store details i.e. usernames and passwords of their various accounts.
 
 ## Contributors
 1. Francis Mwangi
