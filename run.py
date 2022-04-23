@@ -1,4 +1,5 @@
 import random
+from webbrowser import get
 from user import User
 
 
@@ -35,6 +36,13 @@ def main():
             print("Username")
             entered_username = input()
             print("your password")
+            entered_password = input()
+
+        while entered_username != created_user_name or entered_password != created_user_password:
+            print("Invalid username or password")    
+            print("Username")
+            entered_username = input()
+            print("Your password")
             entered_password = input()
 
 
