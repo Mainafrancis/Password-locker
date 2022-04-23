@@ -1,3 +1,6 @@
+from typing_extensions import Self
+
+
 class User:
 
     '''
@@ -7,8 +10,8 @@ class User:
     user_list = []
 
     def_init_(self,user_name,password):
-    self.user_name = user_name
-    self.password = password
+    Self.user_name = user_name
+    Self.password = password
 
     def save_user(self):
 
