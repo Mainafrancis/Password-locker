@@ -23,30 +23,30 @@ def main():
 
 
             while confirm_password != created_user_password:
-            print("invalid password did not match")
-            print("enter your password")
-            created_user_password = input()
-            print("confirm your password")
-            confirm_password = input()
-        else:
-            print(f"congratulations {created_user_name}! account creation successful")  
-            print('\n')  
-            print("proceed to login")
-            print("Username")
-            entered_username = input()
-            print("your password")
-            entered_password = input()
+                print("invalid password did not match")
+                print("enter your password")
+                created_user_password = input()
+                print("confirm your password")
+                confirm_password = input()
+            else:
+                    print(f"congratulations {created_user_name}! account creation successful!!")  
+                    print('\n')  
+                    print("proceed to login")
+                    print("Username")
+                    entered_username = input()
+                    print("your password")
+                    entered_password = input()
 
-        while entered_username != created_user_name or entered_password != created_user_password:
-            print("Invalid username or password")    
-            print("Username")
-            entered_username = input()
-            print("Your password")
-            entered_password = input()
+            while entered_username != created_user_name or entered_password != created_user_password:
+                print("Invalid username or password")    
+                print("Username")
+                entered_username = input()
+                print("Your password")
+                entered_password = input()
 
-        else:
-            print(f"welcome (entered_username) to your account")  
-            print('\n')  
+            else:
+                print(f"welcome (entered_username) to your account")  
+                print('\n')  
 
         elif short_code == 'lg':
             print("welcome")
