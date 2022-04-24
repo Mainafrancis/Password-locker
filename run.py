@@ -65,6 +65,18 @@ def main():
                 print("Enter password")
                 default_user_password = input()
                 print('\n')
+            else:
+                print("Login success") 
+                print('\n')  
+                print('\n') 
+
+        elif short_code == 'ex':   
+            break
+        else:
+            print("Enter valid code to continue") 
+
+    if __name__ == '_main_':    
+        main()        
 
 
 
