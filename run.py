@@ -1,5 +1,4 @@
 import random
-from webbrowser import get
 from user import User
 
 
@@ -44,6 +43,14 @@ def main():
             entered_username = input()
             print("Your password")
             entered_password = input()
+
+        else:
+            print(f"welcome (entered_username) to your account")  
+            print('\n')  
+
+        
+
+
 
 
 
