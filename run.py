@@ -29,13 +29,13 @@ def main():
                 print("confirm your password")
                 confirm_password = input()
             else:
-                    print(f"congratulations {created_user_name}! account creation successful!!")  
-                    print('\n')  
-                    print("proceed to login")
-                    print("Username")
-                    entered_username = input()
-                    print("your password")
-                    entered_password = input()
+                print(f"congratulations {created_user_name}! account creation successful")  
+                print('\n')  
+                print("proceed to login")
+                print("Username")
+                entered_username = input()
+                print("your password")
+                entered_password = input()
 
             while entered_username != created_user_name or entered_password != created_user_password:
                 print("Invalid username or password")    
@@ -75,8 +75,11 @@ def main():
         else:
             print("Enter valid code to continue") 
 
-    if __name__ == '_main_':    
-        main()        
+
+if __name__ == '__main__':
+    main()
+    
+      
 
 
 
