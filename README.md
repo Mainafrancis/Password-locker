@@ -11,7 +11,7 @@ Password Locker is a terminal run python application that allows users to store 
 ## Dependencies
 For the application to run, the following requirements have to be met:
 1. One must have at least python3 installed on their device.
-2. Install pip
+2. Pip installed in the device.
 
 ## Set up Instructions
 To have the following application in your application follow the following steps:
